@@ -1,61 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>BossBricks Real Estate</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Homes - Real Estate</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
     <header>
-        <div class="logo">BossBricks</div>
+        <h1>Dream Homes</h1>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Properties</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#" class="btn">Login</a></li>
-            </ul>
+            <a href="#">Home</a>
+            <a href="#">Properties</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Find Your Dream Property</h1>
-            <p>Building Wealth, One Brick at a Time.</p>
-            <button onclick="exploreProperties()">Explore Properties</button>
-        </div>
+        <h2>Find Your Dream Property</h2>
+        <input type="text" placeholder="Search by city...">
+        <button>Search</button>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Why Choose BossBricks?</h2>
-        <div class="feature-container">
-            <div class="feature-box">
-                <h3>Premium Listings</h3>
-                <p>Carefully verified and high-quality property listings.</p>
-            </div>
-            <div class="feature-box">
-                <h3>Affordable Prices</h3>
-                <p>Best deals in the market with transparent pricing.</p>
-            </div>
-            <div class="feature-box">
-                <h3>Trusted Agents</h3>
-                <p>Professional agents to guide you at every step.</p>
-                <img src="images/home.jpg">
-            </div>
+    <section class="properties">
+        <h2>Featured Properties</h2>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="House">
+            <h3>Luxury Villa</h3>
+            <p>Location: New York</p>
+            <p>Price: $500,000</p>
+            <button>View Details</button>
         </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="House">
+            <h3>Modern Apartment</h3>
+            <p>Location: Los Angeles</p>
+            <p>Price: $300,000</p>
+            <button>View Details</button>
+        </div>
+
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>© 2026 BossBricks Real Estate | College Project</p>
+        <p>© 2026 Dream Homes | All Rights Reserved</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
+
